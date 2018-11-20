@@ -1,0 +1,316 @@
+@charset "UTF-8";
+body {
+  background: black;
+  height: 100vh;
+  margin: 0;
+}
+
+svg {
+  position: absolute;
+  top: 10vh;
+  height: 80vh;
+  min-height: 450px;
+  overflow: visible;
+}
+
+svg path {
+  -webkit-filter: url(#dropshadow);
+          filter: url(#dropshadow);
+}
+
+#stage {
+  height: 100%;
+  -webkit-perspective: 9999px;
+          perspective: 9999px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  -webkit-transform: rotateX(10deg);
+          transform: rotateX(10deg);
+  transition: -webkit-transform 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#stage svg {
+  opacity: 0;
+  -webkit-animation: 🏃🐲 .75s forwards;
+          animation: 🏃🐲 .75s forwards;
+}
+
+#stage svg:nth-of-type(1) {
+  -webkit-transform: rotateZ(180deg) translateZ(-16px);
+          transform: rotateZ(180deg) translateZ(-16px);
+  -webkit-animation-delay: 0ms;
+          animation-delay: 0ms;
+  fill: rgba(64, 92, 61, 0.0681818182);
+}
+
+#stage svg:nth-of-type(2) {
+  -webkit-transform: rotateZ(180deg) translateZ(-3px);
+          transform: rotateZ(180deg) translateZ(-3px);
+  -webkit-animation-delay: 50ms;
+          animation-delay: 50ms;
+  fill: rgba(64, 92, 61, 0.1363636364);
+}
+
+#stage svg:nth-of-type(3) {
+  -webkit-transform: rotateZ(180deg) translateZ(100px);
+          transform: rotateZ(180deg) translateZ(10px);
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+  fill: rgba(64, 92, 61, 0.2045454545);
+}
+
+#stage svg:nth-of-type(4) {
+  -webkit-transform: rotateZ(180deg) translateZ(23px);
+          transform: rotateZ(180deg) translateZ(23px);
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+  fill: rgba(64, 92, 61, 0.2727272727);
+}
+
+#stage svg:nth-of-type(5) {
+  -webkit-transform: rotateZ(180deg) translateZ(36px);
+          transform: rotateZ(180deg) translateZ(36px);
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+  fill: rgba(64, 92, 61, 0.3409090909);
+}
+
+#stage svg:nth-of-type(6) {
+  -webkit-transform: rotateZ(180deg) translateZ(49px);
+          transform: rotateZ(180deg) translateZ(49px);
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
+  fill: rgba(64, 92, 61, 0.4090909091);
+}
+
+#stage svg:nth-of-type(7) {
+  -webkit-transform: rotateZ(180deg) translateZ(62px);
+          transform: rotateZ(180deg) translateZ(62px);
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  fill: rgba(64, 92, 61, 0.4772727273);
+}
+
+#stage svg:nth-of-type(8) {
+  -webkit-transform: rotateZ(180deg) translateZ(75px);
+          transform: rotateZ(180deg) translateZ(75px);
+  -webkit-animation-delay: 350ms;
+          animation-delay: 350ms;
+  fill: rgba(64, 92, 61, 0.5454545455);
+}
+
+#stage svg:nth-of-type(9) {
+  -webkit-transform: rotateZ(180deg) translateZ(88px);
+          transform: rotateZ(180deg) translateZ(88px);
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+  fill: rgba(64, 92, 61, 0.6136363636);
+}
+
+#stage svg:nth-of-type(10) {
+  -webkit-transform: rotateZ(180deg) translateZ(101px);
+          transform: rotateZ(180deg) translateZ(101px);
+  -webkit-animation-delay: 450ms;
+          animation-delay: 450ms;
+  fill: rgba(64, 92, 61, 0.6818181818);
+}
+
+#stage svg:nth-of-type(11) {
+  -webkit-transform: rotateZ(180deg) translateZ(114px);
+          transform: rotateZ(180deg) translateZ(114px);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  fill: rgba(64, 92, 61, 0.75);
+}
+
+#stage svg:nth-of-type(12) {
+  -webkit-transform: rotateZ(180deg) translateZ(127px);
+          transform: rotateZ(180deg) translateZ(127px);
+  -webkit-animation-delay: 550ms;
+          animation-delay: 550ms;
+  fill: rgba(64, 92, 61, 0.8181818182);
+}
+
+#stage svg:nth-of-type(13) {
+  -webkit-transform: rotateZ(180deg) translateZ(140px);
+          transform: rotateZ(180deg) translateZ(140px);
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  fill: rgba(64, 92, 61, 0.8863636364);
+}
+
+#stage svg:nth-of-type(14) {
+  -webkit-transform: rotateZ(180deg) translateZ(153px);
+          transform: rotateZ(180deg) translateZ(153px);
+  -webkit-animation-delay: 650ms;
+          animation-delay: 650ms;
+  fill: rgba(64, 92, 61, 0.9545454545);
+}
+
+#stage svg:nth-of-type(15) {
+  -webkit-transform: rotateZ(180deg) translateZ(166px);
+          transform: rotateZ(180deg) translateZ(166px);
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(16) {
+  -webkit-transform: rotateZ(180deg) translateZ(179px);
+          transform: rotateZ(180deg) translateZ(179px);
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(17) {
+  -webkit-transform: rotateZ(180deg) translateZ(192px);
+          transform: rotateZ(180deg) translateZ(192px);
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(18) {
+  -webkit-transform: rotateZ(180deg) translateZ(205px);
+          transform: rotateZ(180deg) translateZ(205px);
+  -webkit-animation-delay: 850ms;
+          animation-delay: 850ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(19) {
+  -webkit-transform: rotateZ(180deg) translateZ(218px);
+          transform: rotateZ(180deg) translateZ(218px);
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(20) {
+  -webkit-transform: rotateZ(180deg) translateZ(231px);
+          transform: rotateZ(180deg) translateZ(231px);
+  -webkit-animation-delay: 950ms;
+          animation-delay: 950ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(21) {
+  -webkit-transform: rotateZ(180deg) translateZ(244px);
+          transform: rotateZ(180deg) translateZ(244px);
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(22) {
+  -webkit-transform: rotateZ(180deg) translateZ(257px);
+          transform: rotateZ(180deg) translateZ(257px);
+  -webkit-animation-delay: 1050ms;
+          animation-delay: 1050ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(23) {
+  -webkit-transform: rotateZ(180deg) translateZ(270px);
+          transform: rotateZ(180deg) translateZ(270px);
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(24) {
+  -webkit-transform: rotateZ(180deg) translateZ(283px);
+          transform: rotateZ(180deg) translateZ(283px);
+  -webkit-animation-delay: 1150ms;
+          animation-delay: 1150ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(25) {
+  -webkit-transform: rotateZ(180deg) translateZ(296px);
+          transform: rotateZ(180deg) translateZ(296px);
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(26) {
+  -webkit-transform: rotateZ(180deg) translateZ(309px);
+          transform: rotateZ(180deg) translateZ(309px);
+  -webkit-animation-delay: 1250ms;
+          animation-delay: 1250ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(27) {
+  -webkit-transform: rotateZ(180deg) translateZ(322px);
+          transform: rotateZ(180deg) translateZ(322px);
+  -webkit-animation-delay: 1300ms;
+          animation-delay: 1300ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(28) {
+  -webkit-transform: rotateZ(180deg) translateZ(335px);
+          transform: rotateZ(180deg) translateZ(335px);
+  -webkit-animation-delay: 1350ms;
+          animation-delay: 1350ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(29) {
+  -webkit-transform: rotateZ(180deg) translateZ(348px);
+          transform: rotateZ(180deg) translateZ(348px);
+  -webkit-animation-delay: 1400ms;
+          animation-delay: 1400ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(30) {
+  -webkit-transform: rotateZ(180deg) translateZ(361px);
+          transform: rotateZ(180deg) translateZ(361px);
+  -webkit-animation-delay: 1450ms;
+          animation-delay: 1450ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(31) {
+  -webkit-transform: rotateZ(180deg) translateZ(374px);
+          transform: rotateZ(180deg) translateZ(374px);
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(32) {
+  -webkit-transform: rotateZ(180deg) translateZ(387px);
+          transform: rotateZ(180deg) translateZ(387px);
+  -webkit-animation-delay: 1550ms;
+          animation-delay: 1550ms;
+  fill: #405c3d;
+}
+
+#stage svg:nth-of-type(33) {
+  -webkit-transform: rotateZ(180deg) translateZ(400px);
+          transform: rotateZ(180deg) translateZ(400px);
+  -webkit-animation-delay: 1600ms;
+          animation-delay: 1600ms;
+  fill: #405c3d;
+}
+
+@-webkit-keyframes 🏃🐲 {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes 🏃🐲 {
+  to {
+    opacity: 1;
+  }
+}
